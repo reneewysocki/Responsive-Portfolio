@@ -193,6 +193,7 @@ input[type=text], select, textarea {
     width: 35%;
     float: left;
     margin: 20px;
+    padding-right: 20px;
 }
 
 
@@ -342,14 +343,14 @@ input[type=text], select, textarea {
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 666px) {
     .folio-div {
         width: 100%;
         margin-bottom: 10px;
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 666px) {
     .folio-body {
         width: 100%;
         margin-bottom: 10px;
@@ -357,14 +358,14 @@ input[type=text], select, textarea {
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 666px) {
     .folio-img {
         width: 90%;
         height: auto;
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 666px) {
     .folio-label {
         width: 90%;
         height: auto;
@@ -418,3 +419,10 @@ input[type=text], select, textarea {
         margin-left: 20px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .folio-div {
+        margin-right: 50px;
+    }
+}
+
