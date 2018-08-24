@@ -19,8 +19,27 @@ body {
     position: absolute;
     top: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    animation-name: colorchange;
+    animation-duration: 10s;
 
 }
+
+ @keyframes colorchange {
+    0%   {background-color: #ee7674;}
+    8.33%  {background-color: #e8708d;}
+    16.66%  {background-color: #e36da7;}
+    24.99%  {background-color: #dd69c0;}
+    33.32% {background-color: #d765d7;}
+    41.6% {background-color: #b462d2;}
+    49.98% {background-color: #935ecc;}
+    58.31% {background-color: #735bc6;}
+    66.64% {background-color: #575ac1;}
+    74.97% {background-color: #5471bb;}
+    83.3% {background-color: #5187b5;}
+    91.63% {background-color: #4d9cb0;}
+    99.96% {background-color: #4aaaa5;}
+
+ }
 
 
 header {
@@ -31,7 +50,7 @@ header {
 }
 
 
-.container {
+container {
     width: 960px;
     background-color: #fff;
     height: 100px;
