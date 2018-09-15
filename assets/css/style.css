@@ -19,27 +19,40 @@ body {
     position: absolute;
     top: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    animation-name: colorchange;
-    animation-duration: 10s;
+    animation: colorchange 60s infinite; 
 
 }
 
- @keyframes colorchange {
+@keyframes colorchange {
     0%   {background-color: #ee7674;}
-    8.33%  {background-color: #e8708d;}
-    16.66%  {background-color: #e36da7;}
-    24.99%  {background-color: #dd69c0;}
-    33.32% {background-color: #d765d7;}
-    41.6% {background-color: #b462d2;}
-    49.98% {background-color: #935ecc;}
-    58.31% {background-color: #735bc6;}
-    66.64% {background-color: #575ac1;}
-    74.97% {background-color: #5471bb;}
-    83.3% {background-color: #5187b5;}
-    91.63% {background-color: #4d9cb0;}
-    99.96% {background-color: #4aaaa5;}
+    4%  {background-color: #e8708d;}
+    8%  {background-color: #e36da7;}
+    12%  {background-color: #dd69c0;}
+    16% {background-color: #d765d7;}
+    20% {background-color: #b462d2;}
+    24% {background-color: #935ecc;}
+    28% {background-color: #735bc6;}
+    32% {background-color: #575ac1;}
+    36% {background-color: #5471bb;}
+    40% {background-color: #5187b5;}
+    44% {background-color: #4d9cb0;}
+    48% {background-color: #4aaaa5;}
+    52% {background-color: #4aaaa5;}
+    56% {background-color: #4d9cb0;}
+    60% {background-color: #5187b5;}
+    64% {background-color: #5471bb;}
+    68% {background-color: #575ac1;}
+    72% {background-color: #735bc6;}
+    76% {background-color: #935ecc;}
+    80% {background-color: #b462d2;}
+    84% {background-color: #d765d7;}
+    88%  {background-color: #dd69c0;}
+    92%  {background-color: #e36da7;}
+    96%  {background-color: #e8708d;}
+    100%   {background-color: #ee7674;}
 
  }
+
 
 
 header {
